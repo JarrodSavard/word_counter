@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: #1f1f23;
+}
+
+#container {
+  overflow: hidden;
+}
+
+#word-count-header {
+  margin: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 2.25rem;
+  color: white;
+}
+
+#word-count-word,
+#word-count {
+  margin: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+#word-counter-text-area {
+  display: block;
+  border: 2px solid purple;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 0 auto;
+  background: rgb(211, 210, 210);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  resize: none;
+}
